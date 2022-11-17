@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: harbor.dev.afsmtddso.com/akargbo-harbor-project/lab-env-repo:1.0
+        image: harbor.dev.afsmtddso.com/akargbo-harbor-project/db:4599a6b-f21d922
         ports:
         - containerPort: 5432
